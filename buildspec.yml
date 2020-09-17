@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "student"
-    _PROJECT_NAME: "student"
+    IMAGE_REPO_NAME: "04-student"
+    _PROJECT_NAME: "04-student"
 
 phases:
   install:
