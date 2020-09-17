@@ -66,3 +66,4 @@ spring:
         event-out:
           destination: myProject
           contentType: application/json
+          
