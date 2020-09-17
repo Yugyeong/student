@@ -80,11 +80,11 @@ phases:
                     ports:
                       - containerPort: 8080
                     env:
-                      - name: api.url.myclassmanagement
+                      - name: api.url.myClassManagement
                         valueFrom:
                           configMapKeyRef:
                             name: 04-config
-                            key: api.url.myclassmanagement
+                            key: api.url.myClassManagement
                     resources:
                       limits:
                         cpu: 500m
