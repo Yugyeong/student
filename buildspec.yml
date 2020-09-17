@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "04-student"
+    IMAGE_REPO_NAME: "student"
     _PROJECT_NAME: "student"
 
 phases:
@@ -80,11 +80,11 @@ phases:
                     ports:
                       - containerPort: 8080
                     env:
-                      - name: api.url.myClassManagement
+                      - name: api.url.myclassmanagement
                         valueFrom:
                           configMapKeyRef:
                             name: 04-config
-                            key: api.url.myClassManagement
+                            key: api.url.myclassmanagement
                     resources:
                       limits:
                         cpu: 500m
